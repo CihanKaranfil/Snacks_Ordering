@@ -5,12 +5,14 @@ import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
+import utilities.ReusableMethods;
 
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class GirisModulü {
+public class TestModulü  extends ReusableMethods {
+
     @Test
     public void test01() throws MalformedURLException, InterruptedException {
         String appUrl = System.getProperty("user.dir")
@@ -18,6 +20,8 @@ public class GirisModulü {
                 + File.separator + "test"
                 + File.separator + "resources"
                 + File.separator + "app-release.apk";
+
+        serverBaslat();
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "android");
