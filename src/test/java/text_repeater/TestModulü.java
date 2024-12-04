@@ -56,7 +56,6 @@ public class TestModulü  extends ReusableMethods {
 
         WebElement copyButton = driver.findElement(AppiumBy.accessibilityId("Copy"));
         copyButton.click();
-
        // DesiredCapabilities capabilities2 = new DesiredCapabilities();
        // capabilities.setCapability("platformName", "android");
        // capabilities.setCapability("automationName", "uiautomator2");
