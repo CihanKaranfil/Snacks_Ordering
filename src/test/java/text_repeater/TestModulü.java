@@ -57,6 +57,20 @@ public class TestModulü  extends ReusableMethods {
         WebElement copyButton = driver.findElement(AppiumBy.accessibilityId("Copy"));
         copyButton.click();
 
+       // DesiredCapabilities capabilities2 = new DesiredCapabilities();
+       // capabilities.setCapability("platformName", "android");
+       // capabilities.setCapability("automationName", "uiautomator2");
+       // capabilities.setCapability("udid", "emulator-5554");
+       // //capabilities.setCapability("app", appUrl);
+       // capabilities.setCapability("appPackage", "com.example.text_repeater");
+       // capabilities.setCapability("appActivity", "com.example.text_repeater.MainActivity");
+//
+       // URL url2 = new URL("http://0.0.0.0:4723");
+       // AndroidDriver driver2 = new AndroidDriver(url, capabilities);
+       // Thread.sleep(3000);
+
+
+
     }
 
 }
